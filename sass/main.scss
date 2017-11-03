@@ -21,20 +21,14 @@
     padding: 20px 0;
 }
 
-.sidebar-left-collapse>a {
-    display: block;
-    text-decoration: none;
-    font-family: Cookie, cursive;
-    width: 122px;
-    height: 122px;
-    margin: 0 auto;
-    text-align: center;
-    color: #ffffff;
-    font-size: 44px;
-    font-weight: normal;
-    line-height: 2.6;
-    border-radius: 50%;
-    background-color: #181a1b;
+.sidebar-left-collapse {
+    a {
+        display: block;
+        text-align: center;
+        img {
+            border-radius: 50%;
+        }
+    }
 }
 
 .sidebar-left-collapse .sidebar-links {
