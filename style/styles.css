@@ -2,7 +2,7 @@
 .main-content {
   font-family: Arial, Helvetica, sans-serif;
   max-width: 600px;
-  padding-top: 40px;
+  padding-top: 10px;
   margin: 0 0 40px 260px; }
 
 /* The left-collapsing sidebar */
@@ -12,7 +12,7 @@
   top: 0;
   left: 0;
   background-color: #292c2f;
-  width: 180px;
+  width: 230px;
   height: 100%;
   padding: 20px 0; }
 
@@ -103,7 +103,7 @@
 @media (max-width: 900px) {
   .main-content {
     max-width: none;
-    padding: 70px 20px;
+    padding: 10px 20px;
     margin: 0 0 40px; }
 
   .sidebar-left-collapse {
@@ -154,7 +154,7 @@
 /* Smartphone version */
 @media (max-width: 450px) {
   .main-content {
-    padding: 90px 20px; }
+    padding: 10px 20px; }
 
   .sidebar-left-collapse {
     padding: 20px 0; }
